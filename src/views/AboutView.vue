@@ -170,61 +170,40 @@ export default {
 
       <section
         class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
-      <div class="h-[500px] overflow-y-auto space-y-4 fadein-right">
-        <!-- Frame 1 -->
-        <div class="w-[450px] h-[300px] border-4 border-primary-blue overflow-hidden mx-auto">
-          <img
-            :src="require('@/assets/about me.jpg')"
-            alt="Foto 1"
-            class="w-full h-full object-cover"
-          />
-        </div>
+        <div class="h-[500px] overflow-y-auto space-y-4 fadein-right">
+          <!-- Frame 1 -->
+           <div class="w-full max-w-md h-[300px] border-4 border-primary-blue overflow-hidden mx-auto">
+            <img :src="require('@/assets/about me.jpg')" alt="Foto 1" class="w-full h-full object-cover"/></div>
+            <!-- Frame 2 -->
+            <div class="w-full max-w-md h-[300px] border-4 border-primary-blue overflow-hidden mx-auto">
+               <img
+               :src="require('@/assets/about me2.jpg')" alt="Foto 2" class="w-full h-full object-cover"/></div>
+                <!-- Frame 3 -->
+                 <div class="w-full max-w-md h-[300px] border-4 border-primary-blue overflow-hidden mx-auto">
+                  <img :src="require('@/assets/about me3.jpg')" alt="Foto 3" class="w-full h-full object-cover"/></div></div>
 
-        <!-- Frame 2 -->
-        <div class="w-[450px] h-[300px] border-4 border-primary-blue overflow-hidden mx-auto">
-          <img
-            :src="require('@/assets/about me2.jpg')"
-            alt="Foto 2"
-            class="w-full h-full object-cover"
-          />
-        </div>
-
-        <!-- Frame 3 -->
-        <div class="w-[450px] h-[300px] border-4 border-primary-blue overflow-hidden mx-auto">
-          <img
-            :src="require('@/assets/about me3.jpg')"
-            alt="Foto 3"
-            class="w-full h-full object-cover"
-          />
-        </div>
-      </div>
-        <div class="md:w-7/12 ml-10">
-          <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp; Hai! Nama saya Ahmad Syah Gunawan, seorang AR Engineer asal Brebes, Jawa Tengah.
-            Saya lulusan S1 Teknik Informatika dari Universitas Muhammadiyah Purwokerto dengan IPK 3,65 dan memiliki
-            pengalaman 1 tahun dalam pengembangan aplikasi Augmented Reality berbasis mobile. 
-            Saya memiliki minat besar dalam menciptakan karya yang inovatif, kreatif, dan fungsional, 
-            serta terus mengikuti perkembangan teknologi terbaru untuk meningkatkan kemampuan saya.
-          </p>
-            <p class="mb-3 md:mb-7 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; Saya memiliki keahlian dalam pengembangan aplikasi web dan mobile, serta tertarik pada animasi dan inovasi digital. Selain itu,
-            saya aktif dalam kegiatan organisasi, pernah menjadi pengurus IPM saat SMA dan mentor AIK saat kuliah. 
-            Saya juga menyukai olahraga, khususnya bola voli, dan telah meraih juara di tingkat fakultas (2021) dan prodi (2024),
-             yang mengasah kemampuan kerja tim dan semangat kompetitif saya.
-          </p>
-          <p class="mb-3 fadein-left fadeins-3">
-            &nbsp; &nbsp; &nbsp; Sebagai AR Engineer, saya berfokus pada pembuatan aplikasi yang tidak hanya fungsional dan mudah digunakan,
-            tetapi juga menarik secara visual dan interaktif. Saya berkomitmen untuk selalu memberikan solusi terbaik dalam setiap proyek yang saya tangani,
-            serta siap menjadi bagian dari tim yang dinamis dan inovatif.
-          </p>
-
-        </div>
-
-      </section>
-
-    </article>
-  </div>
-
+                  <div class="w-full md:w-7/12 ml-0 md:ml-10 px-4 md:px-0 text-left text-justify">
+                    <p class="mb-3 md:mb-7 fadein-left fadeins-1">Hai! Nama saya Ahmad Syah Gunawan, seorang AR Engineer asal Brebes, Jawa Tengah. 
+                      Saya lulusan S1 Teknik Informatika dari Universitas Muhammadiyah Purwokerto dengan IPK 3,65 dan memiliki
+                      pengalaman 1 tahun dalam pengembangan aplikasi Augmented Reality berbasis mobile.
+                      Saya memiliki minat besar dalam menciptakan karya yang inovatif, kreatif, dan fungsional, 
+                      serta terus mengikuti perkembangan teknologi terbaru untuk meningkatkan kemampuan saya.
+                    </p>
+                    <p class="mb-3 md:mb-7 fadein-left fadeins-2">
+                      Saya memiliki keahlian dalam pengembangan aplikasi web dan mobile, serta tertarik pada animasi dan inovasi digital. Selain itu,
+                      saya aktif dalam kegiatan organisasi, pernah menjadi pengurus IPM saat SMA dan mentor AIK saat kuliah. 
+                      Saya juga menyukai olahraga, khususnya bola voli, dan telah meraih juara di tingkat fakultas (2021) dan prodi (2024),
+                      yang mengasah kemampuan kerja tim dan semangat kompetitif saya.
+                    </p>  
+                    <p class="mb-3 fadein-left fadeins-3">
+                      Sebagai AR Engineer, saya berfokus pada pembuatan aplikasi yang tidak hanya fungsional dan mudah digunakan,
+                      tetapi juga menarik secara visual dan interaktif. Saya berkomitmen untuk selalu memberikan solusi terbaik dalam setiap proyek yang saya tangani,
+                      serta siap menjadi bagian dari tim yang dinamis dan inovatif.
+                    </p>
+                  </div>
+                </section>
+              </article>
+            </div>
   <div class="px-5 py-5 md:px-12 md:py-10 text-left text-amber-50 mx-3">
     <article data-page="about">
       <header>

@@ -52,14 +52,13 @@
     
     
     <div class="rounded-full border-4 border-blue-500 shadow-lg pict">
-  <img
-    :src="require('@/assets/animasi profil.jpg')"
-    alt="avatar"
-    fetchpriority="high"
-    decoding="async"
-    class="w-[400px] h-[400px] object-cover rounded-full"
-  />
-</div>
+      <img
+      :src="require('@/assets/animasi profil.jpg')"
+      alt="avatar"
+      fetchpriority="high"
+      decoding="async"
+      class="w-40 h-40 sm:w-52 sm:h-52 md:w-64 md:h-64 lg:w-80 lg:h-80 object-cover rounded-full"/>
+    </div>
   </main>
 </template>
 
