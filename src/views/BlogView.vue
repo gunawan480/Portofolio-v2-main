@@ -1,7 +1,7 @@
 <template>
-  <div class="container mx-auto p-3 md:p-8">
-    <div class="flex flex-col-reverse md:flex-row relative">
-      <div class="w-full md:w-2/3">
+<div class="container mx-auto p-3 md:p-8">
+  <div class="flex flex-col md:flex-row relative">
+      <div class="w-full md:w-1/3 h-fit p-4 md:p-8 md:sticky md:top-24">
         <div class="flex flex-col gap-4 md:px-20 fade-zoom-up">
           <article v-for="article in articles" :key="article.id">
             <router-link
