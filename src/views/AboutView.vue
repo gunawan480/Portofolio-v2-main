@@ -156,42 +156,53 @@ export default {
   }
 }
 </script>
-<template>
-  <div
-    class="bg-[#1e1e1f] px-5 py-5 md:px-12 md:py-10 text-left border border-[#383838] rounded-3xl text-amber-50 mx-3 mb-5">
-    <article data-page="about">
+          <template>
+            <div
+              class="bg-[#1e1e1f] px-5 py-5 md:px-12 md:py-10 text-left border border-[#383838] rounded-3xl text-amber-50 mx-3 mb-5">
+              <article data-page="about">
 
-      <header>
-        <div class="text-2xl font-bold text-white mb-5 fadein-bot title-section flex items-center">
-          Tentang Saya &nbsp;
-          <div class="h-[1px] w-32 bg-primary-blue md:w-96 aos-init aos-animate" data-aos="zoom-in-left" data-aos-duration="600"></div>
-        </div>
-      </header>
+                <header>
+                  <div class="text-2xl font-bold text-white mb-5 fadein-bot title-section flex items-center">
+                    Tentang Saya &nbsp;
+                    <div class="h-[1px] w-32 bg-primary-blue md:w-96 aos-init aos-animate" data-aos="zoom-in-left" data-aos-duration="600"></div>
+                  </div>
+                </header>
 
-      <section
-        class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
-        <div class="h-[500px] overflow-y-auto space-y-4 fadein-right">
-          <!-- Frame 1 -->
-           <div class="w-full max-w-md h-[300px] border-4 border-primary-blue overflow-hidden mx-auto">
-            <img :src="require('@/assets/about me.jpg')" alt="Foto 1" class="w-full h-full object-cover"/></div>
-            <!-- Frame 2 -->
-            <div class="w-full max-w-md h-[300px] border-4 border-primary-blue overflow-hidden mx-auto">
-               <img
-               :src="require('@/assets/about me2.jpg')" alt="Foto 2" class="w-full h-full object-cover"/></div>
-                <!-- Frame 3 -->
-                 <div class="w-full max-w-md h-[300px] border-4 border-primary-blue overflow-hidden mx-auto">
-                  <img :src="require('@/assets/about me3.jpg')" alt="Foto 3" class="w-full h-full object-cover"/></div></div>
+                <section
+                  class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
+                  
+                  <!-- Foto-foto -->
+                  <div class="max-h-[520px] overflow-y-auto space-y-4 fadein-right w-full md:w-5/12">
+                    <!-- Frame 1 -->
+                    <div class="w-full border-4 border-primary-blue overflow-hidden rounded-xl">
+                      <img :src="require('@/assets/about me1.jpg')" alt="Foto 1" class="w-full h-60 object-cover rounded-xl" />
+                    </div>
+                    <!-- Frame 2 -->
+                    <div class="w-full border-4 border-primary-blue overflow-hidden rounded-xl">
+                      <img :src="require('@/assets/about me2.jpg')" alt="Foto 2" class="w-full h-60 object-cover rounded-xl" />
+                    </div>
+                    <!-- Frame 3 -->
+                    <div class="w-full border-4 border-primary-blue overflow-hidden rounded-xl">
+                      <img :src="require('@/assets/about me3.jpg')" alt="Foto 3" class="w-full h-60 object-cover rounded-xl" />
+                    </div>
+                    <!-- Frame  4-->
+                    <div class="w-full border-4 border-primary-blue overflow-hidden rounded-xl">
+                      <img :src="require('@/assets/about me4.jpg')" alt="Foto 4" class="w-full h-60 object-cover rounded-xl" />
+                    </div>
+                  </div>
 
+                  <!-- Teks Profil -->
                   <div class="w-full md:w-7/12 ml-0 md:ml-10 px-4 md:px-0 text-left text-justify">
-                    <p class="mb-3 md:mb-7 fadein-left fadeins-1">Hai! Nama saya Ahmad Syah Gunawan, seorang AR Engineer asal Brebes, Jawa Tengah. 
+                    <p class="mb-3 md:mb-7 fadein-left fadeins-1">
+                      Hai! Nama saya Ahmad Syah Gunawan, seorang AR Engineer asal Brebes, Jawa Tengah. 
                       Saya lulusan S1 Teknik Informatika dari Universitas Muhammadiyah Purwokerto dengan IPK 3,65 dan memiliki
                       pengalaman 1 tahun dalam pengembangan aplikasi Augmented Reality berbasis mobile.
                       Saya memiliki minat besar dalam menciptakan karya yang inovatif, kreatif, dan fungsional, 
                       serta terus mengikuti perkembangan teknologi terbaru untuk meningkatkan kemampuan saya.
                     </p>
                     <p class="mb-3 md:mb-7 fadein-left fadeins-2">
-                      Saya memiliki keahlian dalam pengembangan aplikasi web dan mobile, serta tertarik pada animasi dan inovasi digital. Selain itu,
-                      saya aktif dalam kegiatan organisasi, pernah menjadi pengurus IPM saat SMA dan mentor AIK saat kuliah. 
+                      Saya memiliki keahlian dalam pengembangan aplikasi web dan mobile, serta tertarik pada animasi dan inovasi digital.
+                      Selain itu, saya aktif dalam kegiatan organisasi, pernah menjadi pengurus IPM saat SMA dan mentor AIK saat kuliah. 
                       Saya juga menyukai olahraga, khususnya bola voli, dan telah meraih juara di tingkat fakultas (2021) dan prodi (2024),
                       yang mengasah kemampuan kerja tim dan semangat kompetitif saya.
                     </p>  
@@ -204,82 +215,83 @@ export default {
                 </section>
               </article>
             </div>
-  <div class="px-5 py-5 md:px-12 md:py-10 text-left text-amber-50 mx-3">
-    <article data-page="about">
-      <header>
-        <div class="text-2xl font-bold text-white mb-5 fadein-bot title-section flex items-center">
-          <div class="h-[1px] w-10 bg-blue-500 shadow-[0_0_10px_#3B82F6] md:w-20 aos-init aos-animate" 
-          data-aos="zoom-in-left" data-aos-duration="600"></div>
-          &nbsp; Skills
-        </div>
-      </header>
-      <section>
-        <div>
-           <ul class="flex flex-wrap text-sm font-medium text-center text-gray-500 dark:text-gray-400 mb-5">
-            <li class="mr-2">
-              <button class="inline-block px-4 py-3 rounded-lg hover:text-white" 
-              :class="{ 'text-blue-500 bg-blue-500 bg-opacity-10': activeTab === 1 }" @click="activeTab = 1">Tech Stack
-            </button>
-          </li>
-          <li class="mr-2">
-            <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
-            :class="{ 'text-blue-500 bg-blue-500 bg-opacity-10': activeTab === 2 }" @click="activeTab = 2">Tools
-          </button>
-        </li>
-      </ul>
-    </div>
-<div v-show="activeTab === 1">
-  <div class="grid grid-cols-2 gap-4 pb-32 md:grid-cols-3 md:gap-8 xl:grid-cols-4 xl:gap-10 2xl:gap-12">
-    <div v-for="item in tech" :key="item.id">
-      <div
-        class="item-tech flex cursor-pointer items-center gap-2 rounded border border-blue-300 px-2 py-2 hover:bg-blue-300 hover:bg-opacity-10 md:gap-3 lg:px-3">
-        <div class="flex h-12 w-12 items-center justify-center p-0 lg:h-16 lg:w-16 lg:p-2 zoom-in">
-          <img alt="HTML" loading="lazy" width="32" height="32" decoding="async" data-nimg="1"
-            class="img-tech drop-shadow-xl transition-all duration-300 h-[65%] w-[65%] lg:h-[85%] lg:w-[85%]"
-            :src="item.imageUrl" style="color: transparent;">
-        </div>
-        <div class="flex items-center text-sm md:text-base lg:text-lg">
-          <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0">
-            {{ item.name }}
-          </div>
-          <div
-            class="status-tech opacity-0 absolute mt-5 text-[10px] text-blue-300 transition-all duration-300 md:text-xs lg:text-sm">
-            {{ item.status }}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-        
-<div v-show="activeTab === 2">
-  <div class="grid grid-cols-2 gap-4 pb-32 md:grid-cols-3 md:gap-8 xl:grid-cols-4 xl:gap-10 2xl:gap-12">
-    <div v-for="item in tools" :key="item.id">
-      <div
-        class="item-tech flex cursor-pointer items-center gap-2 rounded border border-blue-300 px-2 py-2 hover:bg-blue-300 hover:bg-opacity-10 md:gap-3 lg:px-3">
-        <div class="flex h-12 w-12 items-center justify-center p-0 lg:h-16 lg:w-16 lg:p-2 zoom-in">
-          <img alt="HTML" loading="lazy" width="32" height="32" decoding="async" data-nimg="1"
-            class="img-tech drop-shadow-xl transition-all duration-300 h-[65%] w-[65%] lg:h-[85%] lg:w-[85%]"
-            :src="item.imageUrl" style="color: transparent;">
-        </div>
-        <div class="flex items-center text-sm md:text-base lg:text-lg">
-          <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0">
-            {{ item.name }}
-          </div>
-          <div
-            class="status-tech opacity-0 absolute mt-5 text-[10px] text-blue-300 transition-all duration-300 md:text-xs lg:text-sm">
-            {{ item.status }}
+            
+            <div class="px-5 py-5 md:px-12 md:py-10 text-left text-amber-50 mx-3">
+            <article data-page="about">
+              <header>
+                <div class="text-2xl font-bold text-white mb-5 fadein-bot title-section flex items-center">
+                  <div class="h-[1px] w-10 bg-blue-500 shadow-[0_0_10px_#3B82F6] md:w-20 aos-init aos-animate" 
+                  data-aos="zoom-in-left" data-aos-duration="600"></div>
+                  &nbsp; Skills
+                </div>
+              </header>
+              <section>
+                <div>
+                  <ul class="flex flex-wrap text-sm font-medium text-center text-gray-500 dark:text-gray-400 mb-5">
+                    <li class="mr-2">
+                      <button class="inline-block px-4 py-3 rounded-lg hover:text-white" 
+                      :class="{ 'text-blue-500 bg-blue-500 bg-opacity-10': activeTab === 1 }" @click="activeTab = 1">Tech Stack
+                    </button>
+                  </li>
+                  <li class="mr-2">
+                    <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
+                    :class="{ 'text-blue-500 bg-blue-500 bg-opacity-10': activeTab === 2 }" @click="activeTab = 2">Tools
+                  </button>
+                </li>
+              </ul>
+            </div>
+        <div v-show="activeTab === 1">
+          <div class="grid grid-cols-2 gap-4 pb-32 md:grid-cols-3 md:gap-8 xl:grid-cols-4 xl:gap-10 2xl:gap-12">
+            <div v-for="item in tech" :key="item.id">
+              <div
+                class="item-tech flex cursor-pointer items-center gap-2 rounded border border-blue-300 px-2 py-2 hover:bg-blue-300 hover:bg-opacity-10 md:gap-3 lg:px-3">
+                <div class="flex h-12 w-12 items-center justify-center p-0 lg:h-16 lg:w-16 lg:p-2 zoom-in">
+                  <img alt="HTML" loading="lazy" width="32" height="32" decoding="async" data-nimg="1"
+                    class="img-tech drop-shadow-xl transition-all duration-300 h-[65%] w-[65%] lg:h-[85%] lg:w-[85%]"
+                    :src="item.imageUrl" style="color: transparent;">
+                </div>
+                <div class="flex items-center text-sm md:text-base lg:text-lg">
+                  <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0">
+                    {{ item.name }}
+                  </div>
+                  <div
+                    class="status-tech opacity-0 absolute mt-5 text-[10px] text-blue-300 transition-all duration-300 md:text-xs lg:text-sm">
+                    {{ item.status }}
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-
+        <div v-show="activeTab === 2">
+          <div class="grid grid-cols-2 gap-4 pb-32 md:grid-cols-3 md:gap-8 xl:grid-cols-4 xl:gap-10 2xl:gap-12">
+            <div v-for="item in tools" :key="item.id">
+              <div
+                class="item-tech flex cursor-pointer items-center gap-2 rounded border border-blue-300 px-2 py-2 hover:bg-blue-300 hover:bg-opacity-10 md:gap-3 lg:px-3">
+                <div class="flex h-12 w-12 items-center justify-center p-0 lg:h-16 lg:w-16 lg:p-2 zoom-in">
+                  <img alt="HTML" loading="lazy" width="32" height="32" decoding="async" data-nimg="1"
+                    class="img-tech drop-shadow-xl transition-all duration-300 h-[65%] w-[65%] lg:h-[85%] lg:w-[85%]"
+                    :src="item.imageUrl" style="color: transparent;">
+                </div>
+                <div class="flex items-center text-sm md:text-base lg:text-lg">
+                  <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0">
+                    {{ item.name }}
+                  </div>
+                  <div
+                    class="status-tech opacity-0 absolute mt-5 text-[10px] text-blue-300 transition-all duration-300 md:text-xs lg:text-sm">
+                    {{ item.status }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </article>
   </div>
 </template>
+
+
 
 <style>
 .fadein-left {
