@@ -50,7 +50,7 @@ export default {
           name: 'Beckend Development',
           provider: 'MySkill',
           date: 'September 2023',
-          link: 'https://example.com/cert1',
+          link: 'https://drive.google.com/file/d/1PeqhT-hVw-JdOc75UI-O32f6ANrdIpfV/view?usp=drive_link',
           imageUrl: '/img/sertifikat-sertifikat_beckend.png'
         },
         {
@@ -58,7 +58,7 @@ export default {
           name: 'UX Writing Fundamental',
           provider: 'MySkill',
           date: 'Oktober 2023',
-          link: 'https://example.com/cert2',
+          link: 'https://drive.google.com/file/d/1RJk9-b8E5pezqMUNi6J8fShQrQNpZR6t/view?usp=drive_link',
           imageUrl: '/img/sertifikat-sertifikat_uxwritingfundamental.png'
         },
         {
@@ -66,7 +66,7 @@ export default {
           name: 'Designing Using Canva',
           provider: 'MySkill',
           date: 'Oktober 2023',
-          link: 'https://example.com/cert2',
+          link: 'https://drive.google.com/file/d/107vXaaXj-56OqR7pMbl1gixSPZnRlrui/view?usp=drive_link',
           imageUrl: '/img/sertifikat-sertifikat_designingusingcanva.png'
         },
         {
@@ -74,7 +74,7 @@ export default {
           name: 'Mini Bootcamp Super Admin',
           provider: 'YEC (Yureka Edukasi Cipta)',
           date: 'Februari 2025',
-          link: 'https://example.com/cert2',
+          link: 'https://drive.google.com/file/d/1LxklfAzekYII_d8Oa81vVr5pToUB65EB/view?usp=drive_link',
           imageUrl: '/img/sertifikat-sertifikat_superadmin.png'
         }
       ],
@@ -86,7 +86,7 @@ export default {
           organizer: 'LPPI Universitas Muhammadiyah Purwokerto',
           year: '2022',
           imageUrl: '/img/sertifikat-penghargaan-mentor.png',
-          link: 'https://link-ke-detail-award1.com'
+          link: 'https://drive.google.com/file/d/1bJOrwVHP0McbUZTZFjfnpzriqjyg24Io/view?usp=drive_link'
         },
         {
           id: 2,
@@ -94,7 +94,7 @@ export default {
           organizer: 'Universitas Muhammadiyah Purwokerto',
           year: '2022',
           imageUrl: '/img/sertifikat-penghargaan-CEFR.png',
-          link: 'https://link-ke-detail-award2.com'
+          link: 'https://drive.google.com/file/d/1fpPtawezr2zvv6jXs-UjP-KAv8aK5nQV/view?usp=sharing'
         },
         {
           id: 3,
@@ -102,7 +102,7 @@ export default {
           organizer: 'BKA Universitas Muhammadiyah Purwokerto',
           year: '2021',
           imageUrl: '/img/sertifikat-penghargaan-volijuara2.jpeg',
-          link: 'https://link-ke-detail-award2.com'
+          link: 'https://drive.google.com/file/d/1AKqOoESBl4QNEy8Z03AYDwtNZoRrNLWu/view?usp=drive_link'
         }
       ],
 
